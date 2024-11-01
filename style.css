@@ -28,12 +28,14 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  filter: grayscale(30%);
 }
 
 .choice:hover {
+  filter: grayscale(0%);
   background-color: #1d263b;
   cursor: pointer;
-
+  transform: scale(1.2);
   transition: all 2s ease;
 }
 img {
