@@ -9,14 +9,14 @@
   /* Keeps the border inclusive of the total size of element */
 }
 h1 {
-  height: 5rem;
+  /* height: 5rem; */
   line-height: 5rem;
   text-align: center;
-
   color: #1d263b;
 }
 .choices {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 3rem;
